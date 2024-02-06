@@ -1,0 +1,31 @@
+{"intents": [
+{"tag": "greetings",
+"patterns": ["hello", "hey", "hi", "Good day", "Greetings", "What's up?", "How is it going?"],
+"responses": ["Hello!", "Hey!", "What can I do for you?"]
+},
+{"tag": "goodbye",
+"patterns": ["goodbye", "bye", "see you later", "farewell"],
+"responses": ["Goodbye!", "Take care!", "See you later!"]
+},
+{"tag": "age",
+"patterns": ["How old are you?", "What's your age?", "Age?"],
+"responses": ["I don't have an age.", "I'm ageless.", "I'm a machine, so no age."]
+},
+{"tag": "name",
+"patterns": ["What's your name?", "Who are you?", "Name?"],
+"responses": ["I'm a chatbot.", "I don't have a personal name.", "Call me ChatGPT."]
+},
+{"tag": "shop",
+"patterns": ["Where can I shop?", "Any shopping recommendations?", "Shop nearby?"],
+"responses": ["You can try local markets.", "Online shopping is popular nowadays.", "What are you looking for?"]
+},
+{"tag": "hours",
+"patterns": ["What are your working hours?", "When are you available?", "Hours of operation?"],
+"responses": ["I'm available 24/7.", "No specific hours, feel free to ask anytime.", "I'm always here to help."]
+},
+{"tag": "stocks",
+"patterns": ["Stock market update", "How are the stocks today?", "Any stock recommendations?"],
+"responses": ["I'm not equipped to provide real-time stock updates.", "Consult a financial advisor for stock advice.", "Stock markets can be unpredictable."]
+}
+]
+}
